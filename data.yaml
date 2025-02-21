@@ -1,0 +1,124 @@
+title: "Tufte-Clean Financial Performance Report - February 2025"
+author: "Finance Team"
+date: "2025-02-20"
+company: "XYZ Corporation"
+
+epigraph:
+  text: "Clarity is the ultimate sophistication."
+  author: "Edward Tufte"
+
+sections:
+  - heading: "Executive Summary"
+    content: |
+      **Revenue increased by 6% YoY**, driven by **SaaS growth**.
+      **Operating expenses rose 7.2%**, exceeding projections due to **higher marketing costs**.
+
+      **Net profit margin remains stable at 12.4%**, and **cash flow improved by 12.7% MoM**.
+
+    sidenote: "Great financial reporting removes noise, not data."
+
+    key_metrics:
+      - name: "Total Revenue"
+        value: "$5,400,000"
+        change: "+6% YoY"
+      - name: "Net Profit"
+        value: "$680,000"
+        change: "+4.5% MoM"
+      - name: "EBITDA Margin"
+        value: "19.2%"
+        change: "+0.7% vs. Plan"
+      - name: "Operating Expenses"
+        value: "$3,900,000"
+        change: "+7.2% vs. Plan"
+      - name: "Free Cash Flow"
+        value: "$1,350,000"
+        change: "+12.7% MoM"
+
+  - heading: "Quarterly Revenue Breakdown"
+    content: |
+      **SaaS revenue continues to rise**, while **hardware and services remain stable**.
+
+    margin_note: "Bar charts highlight growth trends clearly."
+
+    figure:
+      src: "tufte_clean_revenue_breakdown.png"
+      caption: "Quarterly Revenue Breakdown"
+
+  - heading: "Expense Distribution"
+    content: |
+      **Marketing spend is 15% over budget**, while **Salaries & Benefits remain the largest expense**.
+      **R&D spending remains consistent**, ensuring future innovation.
+
+    sidenote: "Each category is displayed for quick comparison."
+
+    figure:
+      src: "tufte_clean_expense_distribution.png"
+      caption: "Expense Distribution by Category"
+
+    expense_categories:
+      - name: "Marketing"
+        amount: "$900,000"
+        change: "+15% vs. Plan"
+      - name: "Salaries & Benefits"
+        amount: "$1,550,000"
+        change: "+5% vs. Plan"
+      - name: "R&D"
+        amount: "$620,000"
+        change: "-1.5% vs. Plan"
+      - name: "General & Admin"
+        amount: "$850,000"
+        change: "+3% vs. Plan"
+
+  - heading: "Financial Trends: Net Profit, Cash Flow & Expenses"
+    content: |
+      **Cash flow continues to grow**, improving by **12.7% MoM**.
+      **Operating expenses are increasing** and require monitoring.
+
+    blockquote:
+      text: "Numbers have an important story to tell. They rely on you to give them a voice."
+      author: "Stephen Few"
+
+    figure:
+      src: "tufte_clean_financial_trends.png"
+      caption: "Net Profit, Cash Flow & Operating Expense Trends"
+
+  - heading: "Quarterly Financial Performance Overview"
+    content: |
+      A **simple heatmap provides a quick glance at revenue, expenses, and profit across quarters**.
+
+      - **Darker areas indicate higher values.**
+      - **Understanding patterns helps in making informed financial decisions.**
+
+    sidenote: "Patterns emerge when unnecessary elements are removed."
+
+    figure:
+      src: "tufte_clean_financial_heatmap.png"
+      caption: "Quarterly Financial Performance Overview"
+
+  - heading: "Forecast & Outlook"
+    content: |
+      **Revenue is expected to increase by 7.5% next quarter**, driven by continued SaaS growth.
+
+      **Expense control will be critical** to maintain profitability.
+
+    figure:
+      src: "tufte_clean_forecast_trends.png"
+      caption: "Projected Revenue & Expense Trends"
+
+    forecast:
+      - name: "Projected Revenue (Next Quarter)"
+        value: "$16,800,000"
+        change: "+7.5% vs. Prior Quarter"
+      - name: "Projected Operating Expenses"
+        value: "$11,700,000"
+        change: "+3% vs. Prior Quarter"
+      - name: "Projected EBITDA Margin"
+        value: "19.7%"
+        change: "+0.5% vs. Prior Quarter"
+
+footnotes:
+  - label: "1"
+    text: "YoY = Year-over-Year, MoM = Month-over-Month."
+  - label: "2"
+    text: "All financial figures are preliminary and subject to final audit."
+
