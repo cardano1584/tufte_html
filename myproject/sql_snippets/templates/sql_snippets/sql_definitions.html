@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SQL Definitions</title>
+</head>
+<body>
+    <h1>SQL Definitions</h1>
+    <ul>
+        {% for post in all_posts %}
+        <li><strong>{{ post.title }}</strong> - Created on {{ post.created_at }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
