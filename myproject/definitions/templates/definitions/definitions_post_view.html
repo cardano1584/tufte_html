@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ post.title }}</title>
+</head>
+<body>
+    <h1>{{ post.title }}</h1>
+    <p>{{ post.summary }}</p>
+    <p>{{ post.description }}</p>
+    <div>
+        {{ content|safe }}
+    </div>
+    <p><strong>Views:</strong> {{ post.definitionspostviewtracking_set.count }}</p>
+    
+    {% if can_view_extra_info %}
+    <p><strong>Last modified by:</strong> {{ last_modified_by }} on {{ last_modified_at }}</p>
+    {% endif %}
+</body>
+</html>
